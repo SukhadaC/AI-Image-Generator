@@ -1,4 +1,4 @@
-const myAPI="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";
+const myAPI="YOUR API KEY";
 
 
 export {myAPI};
