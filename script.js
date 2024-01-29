@@ -1,6 +1,8 @@
+import { myAPI } from './config.js';
+
 const generateForm=document.querySelector(".generate-form");
 const imageGallery=document.querySelector(".image-gallery");
-const OPENAI_API_KEY="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";
+
 let isImageGenerating=false;
 const updateImagecard=(imageDataArray)=>{
     imageDataArray.forEach((imgObject,index)=>{
@@ -26,7 +28,7 @@ try{
         method:"POST",
         headers:{
            "Content-Type": "application/json",
-           Authorization: `Bearer ${OPENAI_API_KEY}`
+           Authorization: `Bearer ${myAPI}`
         },
         body:JSON.stringify({
             prompt:userPrompt,

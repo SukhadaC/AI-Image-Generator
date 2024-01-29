@@ -84,6 +84,7 @@
     padding:0 25px;
     border-radius: 30px;
     font-weight:500;
+    cursor: pointer;
     background:#4949E7;
 }
 .image-gallery{
