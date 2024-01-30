@@ -4,6 +4,8 @@
 
 # AI Image Generator
 
+Website Link: https://ai-generative-image.netlify.app/
+
 ## Description
 
 AI Image Generator is a web application that allows users to generate images based on textual descriptions. Users input a descriptive text containing information about the image they want to generate. They can then select the quantity of images they wish to create, ranging from 1 to 4. After providing the necessary details, the application uses the OpenAI API to generate the images, which can be downloaded by the user.
